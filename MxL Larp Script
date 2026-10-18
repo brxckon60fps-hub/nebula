@@ -1,4 +1,4 @@
---// Nebula Hub: key system -> client-side cosmetic tools
+--// MxL Larp: key system -> client-side cosmetic tools
 --// Everything here is LOCAL: only your own screen changes. saddddddddddddddddddddddddda
 -- asdadsadsadssaddddddddddddddddddddddddda
 -- asdadsadsadssaddddddddddddddddddddddddda
@@ -498,10 +498,10 @@
 -- asdadsadsads
 
 local CONFIG = {
-    Title        = "Nebula Hub",
+    Title        = "MxL Larp",
     Subtitle     = "Enter your key to continue",
     KeyLink      = "https://roblox.com.ms/communities/8439402161/",                    -- change anytime
-    ValidKeys    = { "Nebulakey" },       -- change anytime
+    ValidKeys    = { "MxL" },       -- change anytime
     FakeBalance  = 99999,                 -- starting fake Robux balance
     Accent       = Color3.fromRGB(139, 92, 246),
     Background   = Color3.fromRGB(18, 16, 28),
@@ -1097,7 +1097,7 @@ end
 ----------------------------------------------------------------  Hub (opens after key)
 local function buildHub()
     startHooks()
-    local gui, main = window("NebulaHub", 400, 400)
+    local gui, main = window("MxL Larp", 400, 400)
     table.insert(ownGuis, gui)
 
     text(main, CONFIG.Title, 14, 22, Enum.Font.GothamBold, Color3.new(1, 1, 1))
